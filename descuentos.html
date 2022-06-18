@@ -7,7 +7,38 @@
     <title>Porcentajes y Descuentos</title>
 </head>
 <body>
-    <h1>Porcentajes y Descuentos</h1>
+    <header>
+        <h1>Porcentajes y Descuentos</h1>
+        <p>Programa para calcular los valores totales a pagar de productos con descuentos</p>
+    </header>
+    <section>
+        <h2>Calcular Porcentaje de Descuento de Productos</h2>
+        <div>
+            <label for="inputPrecio">Ingrese el valor del producto</label>
+            <input id="inputPrecio" type="number">
+            
+            <label for="inputDescuento">Ingrese el descuento a aplicar</label>
+            <input id="inputDescuento" type="number">
+
+            <button type="button" onclick="calcularDescuentoProducto()">Calcular Precio a pagar</button>
+
+            <p id="ResultP"></p>
+        </div>
+
+        <div>
+            <h2>DESCUENTO CON CUPONES</h2>
+            <label for="idCupon">Escribe tu cupon</label>
+            <input id="idCupon" type="text">
+
+            <label for="idPrecio">Escribe el precio del Producto</label>
+            <input id="idPrecio" type="number">
+
+            <button type="button" onclick="calcularDescuentoConCupon()">Calcular Precio a Pagar</button>
+
+            <p id="salidaPrecioFinal"></p>
+
+        </div>
+    </section>
 
     <script src="./descuentos.js"></script>
     
