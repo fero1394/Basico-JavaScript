@@ -38,3 +38,5 @@ else{
    console.log(mitadLista1);
     return console.log(lista1[mitadLista1]);
 }
+
+//DESDE EL COMPUTADOR DE SOFKA
