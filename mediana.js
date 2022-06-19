@@ -11,7 +11,12 @@ function promedio(lista){
     console.log(promedioLista);
 }
 
-const lista1 = [100,200,300,1000000];
+const array = [500,700,300,100,1000000];
+
+console.log(array);
+const lista1 = array.sort(function(a,b){
+    return a - b;});
+console.log(lista1);
 
 const mitadLista1 = parseInt(lista1.length/2);
 
